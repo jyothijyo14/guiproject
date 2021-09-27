@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login form</title>
+<link rel="stylesheet"  href="home.css">
+<script type="text/javascript">
+function goNext(){
+	open("books.html");
+	close("login.html")
+}
+</script>
+</head>
+<body bgcolor="clay">
+<center>
+<table>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="books.html">Books</a></li>
+<li><a href="login.html">Student-login</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+</ul></center>
+</table>
+<h1>Login Here</h1>
+<form action="login.html" method="post">
+
+<tr>
+<td>Username:</td>
+<td>
+<input type="text" name="user">
+</td></tr>
+<tr>
+<td>password:</td>
+<td>
+<input type="password" name="user_pass">
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="submit" value="login" onclick="goNext()">
+</td>
+<td>
+    Not yet a member?<a href="Register.html" >Register</a>
+    </td>
+    </tr></table></form></center>
+</body>
+</html>
